@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎨 Botones Interactivos"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/primary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los botones permiten al usuario realizar acciones con un toque. Diferentes tipos de botones ofrecen distintas experiencias de interacción."
+            android:textSize="16sp"
+            android:layout_marginBottom="32dp"
+            android:textColor="@color/text_secondary" />
+
+        <!-- Botón Normal -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botón Normal (Button):"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El botón estándar con texto para acciones principales"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presiona este botón"
+            android:backgroundTint="@color/primary"
+            android:layout_marginBottom="32dp" />
+
+        <!-- ImageButton -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botón de Imagen (ImageButton):"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botón con ícono, ideal para acciones rápidas y reconocibles"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="8dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/accent"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="Botón de cámara" />
+
+        <!-- FloatingActionButton -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botón de Acción Flotante (FAB):"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botón flotante para la acción principal de la pantalla"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="16dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="32dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@android:drawable/ic_input_add"
+                android:backgroundTint="@color/accent"
+                android:contentDescription="Botón de acción flotante" />
+
+        </RelativeLayout>
+
+        <!-- Estado de los botones -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado de Interacciones:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presiona cualquier botón para ver el estado aquí..."
+            android:background="@drawable/rounded_background"
+            android:padding="16dp"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:minHeight="80dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>
