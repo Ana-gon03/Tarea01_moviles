@@ -54,9 +54,9 @@ Navegación
 Interacción
 1- Fragment de Textos: Completa los diferentes campos y presiona "Mostrar Contenido"
 
-![Descripción de la imagen](screenshots/texto.jpg)
+![Descripción de la imagen](app/screenshots/texto.jpg)
 
-![Descripción de la imagen](screenshots/texto2.jpg)
+![Descripción de la imagen](app/screenshots/texto2.jpg)
 
 
 
