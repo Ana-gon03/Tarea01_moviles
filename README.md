@@ -53,6 +53,13 @@ Navegación
 
 Interacción
 1- Fragment de Textos: Completa los diferentes campos y presiona "Mostrar Contenido"
+
+![Descripción de la imagen](screenshots/texto.jpg)
+
+![Descripción de la imagen](screenshots/texto2.jpg)
+
+
+
 2-Fragment de Botones: Toca cada tipo de botón para ver sus efectos.
 3-Fragment de Selección: Marca/desmarca opciones y observa los cambios en tiempo real.
 4-Fragment de Listas: Toca elementos en ambas listas para ver la diferencia.
