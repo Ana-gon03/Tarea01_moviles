@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ℹ️ Elementos Informativos"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/primary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estos elementos muestran información al usuario: TextView para texto, ImageView para imágenes e íconos, y ProgressBar para indicar el progreso de operaciones."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/text_secondary" />
+
+        <!-- TextView Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView - Mostrar texto:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Título Principal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción que cambiará dinámicamente"
+            android:textSize="16sp"
+            android:textColor="@color/text_primary"
+            android:background="@drawable/rounded_background"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/buttonChangeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambiar Texto"
+            android:backgroundTint="@color/primary"
+            android:layout_marginBottom="24dp" />
+
+        <!-- ImageView Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageView - Mostrar imágenes:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/rounded_background"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@android:drawable/ic_dialog_info"
+                android:background="@drawable/rounded_background"
+                android:backgroundTint="@color/accent_light"
+                android:padding="16dp"
+                android:scaleType="centerInside"
+                android:contentDescription="Imagen de demostración" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonChangeImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambiar Imagen"
+            android:backgroundTint="@color/accent"
+            android:layout_marginBottom="24dp" />
+
+        <!-- ProgressBar Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressBar - Mostrar progreso:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressBar Horizontal:"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="8dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarHorizontal"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="@color/primary"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ProgressBar Circular:"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginEnd="16dp" />
+
+            <ProgressBar
+                android:id="@+id/progressBarCircular"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:visibility="gone"
+                android:indeterminateTint="@color/accent" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonStartProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Progreso"
+            android:backgroundTint="@color/primary" />
+
+    </LinearLayout>
+</ScrollView>
