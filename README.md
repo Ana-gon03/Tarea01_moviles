@@ -96,5 +96,4 @@ Usa los botones para cambiar contenido y simular progreso
 ---
 
 ## Video
-
-![Descripción de la imagen](app/screenshots/video_app.mp4)
+[▶️ Ver video de demostración](app/screenshots/video_app_ko.mp4)
