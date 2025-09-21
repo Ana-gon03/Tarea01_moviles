@@ -62,38 +62,54 @@ Esta primera tarea es una aplicación desarrollada en Android Studio que demuest
 #### 1. Fragment de Textos
 Completa los diferentes campos y presiona **"Mostrar Contenido"**
 
-![Descripción de la imagen](app/screenshots/texto.jpg)
+<p align="center">
+  <img src="app/screenshots/texto.jpg" alt="Descripción de la imagen" width="400"/>
+</p>
 
-![Descripción de la imagen](app/screenshots/texto2.jpg)
+<p align="center">
+  <img src="app/screenshots/texto2.jpg" alt="Descripción de la imagen" width="400"/>
+</p>
 
 
 #### 2. Fragment de Botones
 Toca cada tipo de botón para ver sus efectos
 
-![Descripción de la imagen](app/screenshots/boton.jpg)
+<p align="center">
+  <img src="app/screenshots/boton.jpg" alt="Descripción de la imagen" width="400"/>
+</p>
 
 
 #### 3. Fragment de Selección
 Marca/desmarca opciones y observa los cambios en tiempo real
 
-![Descripción de la imagen](app/screenshots/selec.jpg)
+<p align="center">
+  <img src="app/screenshots/selec.jpg" alt="Descripción de la imagen" width="400"/>
+</p>
 
-![Descripción de la imagen](app/screenshots/selec2.jpg)
-
+<p align="center">
+  <img src="app/screenshots/selec2.jpg" alt="Descripción de la imagen" width="400"/>
+</p>
 
 
 #### 4. Fragment de Listas
 Toca elementos en ambas listas para ver la diferencia
 
-![Descripción de la imagen](app/screenshots/lista.jpg)
+<p align="center">
+  <img src="app/screenshots/lista.jpg" alt="Descripción de la imagen" width="400"/>
+</p>
 
 
 #### 5. Fragment de Información
 Usa los botones para cambiar contenido y simular progreso
 
-![Descripción de la imagen](app/screenshots/info.jpg)
+<p align="center">
+  <img src="app/screenshots/info.jpg" alt="Descripción de la imagen" width="400"/>
+</p>
 
 ---
 
 ## Video
-[▶️ Ver video de demostración](app/screenshots/video_app_ko.mp4)
+
+
+https://github.com/user-attachments/assets/2ebe3dfb-86db-4cf8-bebd-962f71a15a05
+
