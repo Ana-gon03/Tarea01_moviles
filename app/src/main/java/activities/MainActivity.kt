@@ -1,9 +1,16 @@
-package com.example.tarea1_moviles
+package activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import fragments.InfoFragment
+import fragments.ListsFragment
+import com.example.tarea1_moviles.R
+import fragments.SelectionFragment
+import fragments.TextFieldsFragment
+import com.example.tarea1_moviles.fragments.ButtonsFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+
 
 
 class MainActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.example.tarea1_moviles
+package fragments
 
 import android.os.Bundle
 import android.os.Handler
@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import androidx.fragment.app.Fragment
+import com.example.tarea1_moviles.R
 
 class InfoFragment : Fragment() {
 

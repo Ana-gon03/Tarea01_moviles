@@ -26,7 +26,6 @@
             android:layout_marginBottom="32dp"
             android:textColor="@color/text_secondary" />
 
-        <!-- Botón Normal -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,7 +50,6 @@
             android:backgroundTint="@color/primary"
             android:layout_marginBottom="32dp" />
 
-        <!-- ImageButton -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -80,7 +78,6 @@
             android:layout_marginBottom="32dp"
             android:contentDescription="Botón de cámara" />
 
-        <!-- FloatingActionButton -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -113,7 +110,13 @@
 
         </RelativeLayout>
 
-        <!-- Estado de los botones -->
+        <Button
+            android:id="@+id/buttonGoToSecondActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a Segunda Actividad"
+            android:layout_marginBottom="32dp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -133,6 +136,7 @@
             android:textColor="@color/text_secondary"
             android:minHeight="80dp"
             android:gravity="center" />
+
 
     </LinearLayout>
 </ScrollView>

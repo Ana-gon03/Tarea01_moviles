@@ -1,4 +1,4 @@
-package com.example.tarea1_moviles
+package fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.*
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.tarea1_moviles.R
 
 class ListsFragment : Fragment() {
 

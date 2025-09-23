@@ -1,4 +1,4 @@
-package com.example.tarea1_moviles
+package fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,6 +9,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.example.tarea1_moviles.R
 
 class TextFieldsFragment : Fragment() {
 
