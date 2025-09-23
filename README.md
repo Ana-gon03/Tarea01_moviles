@@ -75,7 +75,11 @@ Completa los diferentes campos y presiona **"Mostrar Contenido"**
 Toca cada tipo de botón para ver sus efectos
 
 <p align="center">
-  <img src="app/screenshots/boton.jpg" alt="Descripción de la imagen" width="400"/>
+  <img src="https://github.com/user-attachments/assets/4e8041b6-5ab2-430c-b388-1ef6b72aa76b" width="400">
+  <br>
+  <img src="https://github.com/user-attachments/assets/beb911f6-814b-44c7-8113-0ed1c63b2c25" width="400">
+  <br>
+  <img src="https://github.com/user-attachments/assets/328ec637-545e-4630-8809-420bef4c58b0" width="400">
 </p>
 
 
@@ -104,8 +108,8 @@ Usa los botones para cambiar contenido y simular progreso
 
 <p align="center">
   <img src="app/screenshots/info.jpg" alt="Descripción de la imagen" width="400"/>
-</p>
 
+</p>
 ---
 
 ## Video
